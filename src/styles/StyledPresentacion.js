@@ -18,6 +18,9 @@ export const Modal = styled.div`
     flex-direction: column;
     padding: 20px;
     position: relative;
+    @media screen and (max-width: 480px) {
+        padding-top: 50px;
+    }
 `
 export const Button = styled.button`
     padding: 10px;

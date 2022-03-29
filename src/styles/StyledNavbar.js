@@ -9,13 +9,14 @@ export const Nav = styled.nav`
 `
 export const Ul = styled.div`
     display: flex;
-    width: 300px;
-    justify-content: space-between;
-    font-size: 1.4rem;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.2rem;
 `
 export const Li = styled.li`
     list-style: none;
     color: white;
+    margin:0 20px;
     padding: 10px;
     border-bottom: 5px solid white;
     font-weight: 900;
